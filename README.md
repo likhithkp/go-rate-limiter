@@ -21,7 +21,7 @@ This method limits requests per unique IP address. It maintains a map of clients
 
 ### How to Run:
 ```sh
-cd per_client_rate_limiter
+cd perclientlimit
 go run main.go
 ```
 
@@ -37,7 +37,7 @@ A general rate-limiting technique that allows a burst of requests up to a limit 
 
 ### How to Run:
 ```sh
-cd token_bucket
+cd tokenbucket
 go run main.go
 ```
 
@@ -54,7 +54,7 @@ This method uses the `tollbooth` package to implement rate limiting as middlewar
 
 ### How to Run:
 ```sh
-cd tollbooth_limiter
+cd tollbooth
 go run main.go
 ```
 
